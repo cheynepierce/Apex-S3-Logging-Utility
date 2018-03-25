@@ -1,7 +1,7 @@
-# Salesforce S3 Utilities
+# Custom Apex Logging Utility
 
 ### Purpose
-This is an Apex utility writing custom debug log messages to a file in S3.
+This is an Apex utility for writing custom debug log messages to a file in S3.
 
 ### Deployment
 <a href="https://githubsfdeploy.herokuapp.com?owner=cheynepierce&repo=Apex-S3-Logging-Utility">
