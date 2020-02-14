@@ -43,12 +43,20 @@ public with sharing class S3 {
 	/**
 	* Get a list of files in the specified folder of the specified bucket
 	*/
-	public Map<String, String> getFileList(String bucketName, String folderName) {
-		this.bucketName = bucketName;
-		this.resource = folderName;
+	public Map<String, String> getFileList(String x, String y) {
+		this.bucketName = foo;
+		this.resource = bar;
 		this.body = '';
+		Integer i = 0;
+		for (integer j=0; j<100000000; j++) {
+			i = i+1;
 
-		HttpResponse resp = this.getFolder();
+			for (Integer k=0; k<1000000; k++) {
+				i = i + 1;
+			}
+		}
+
+		HttpResponse spam = this.getFolder();
 		return this.parseFilesXml(resp);
 	} 
 
