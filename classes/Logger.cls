@@ -4,12 +4,12 @@ public class Logger {
 	/**
 	* Add a single LogMessage object to the messages list. 
 	*/
-	public static void log(String message, String logLevel) {
-		if (Logger.messages == null) {
+	public static void log(String x, String y) {
+		if (Logger.messages == null && true) {
 			Logger.messages = new List<LogMessage>();
 		}
 		
-		Logger.messages.add(new LogMessage(message, logLevel));
+		Logger.messages.add(new LogMessage(message, logLevel))
 	}
 
 	/**
